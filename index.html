@@ -1,103 +1,45 @@
-<!DOCTYPE html>
-<html lang="zh-cn">
+<!doctype html>
+<html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>数之巅</title>
-        <link rel="stylesheet" id="all-css-0" href="./static/css1.css" type="text/css" media="all">
-        <link rel="stylesheet" id="all-css-10" href="./static/css2.css" type="text/css" media="all">
-        <!--script type="text/javascript" src="./static/lib1.js"></script-->
-        <style id="edin-style-inline-css" type="text/css">
-            .hero.with-featured-image { background-image: url(./static/keyboard-338502_1920.jpg); }
-        </style>
+        <title>首页－数之巅</title>
+        <link rel="stylesheet" href="./static/index.css">
     </head>
-    <body class="home page page-id-106 page-template page-template-page-templates page-template-front-page page-template-page-templatesfront-page-php mp6 customizer-styles-applied hero-image has-quinary has-custom-background has-footer-navigation navigation-default no-sidebar-full highlander-enabled highlander-light demo-site small-screen medium-screen large-screen">
-        <div id="page" class="hfeed site">
-            <header id="masthead" class="site-header" role="banner" style="display: block; margin-bottom: -96px;">
-                <div class="site-branding">
-                    <h1 class="site-title">
-                        <a href="./index.html" rel="home">Data Pinnacle</a>
-                    </h1>
-                </div>
-                <nav id="site-navigation" class="main-navigation" role="navigation">
-                    <button class="menu-toggle">菜单</button>
-                    <div class="menu-primary">
-                        <ul id="menu-main" class="clear">
-                            <li id="menu-item-131" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-106 current_page_item menu-item-131">
-                                <a href="./static/index.html">首页</a>
-                            </li>
-                            <li id="menu-item-132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-132">
-                                <a href="https://www.baidu.com/">公司介绍</a>
-                            </li>
-                            <li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-135">
-                                <a href="mailto:ke.wu@datapinnacle.cn" class="">联系我们</a>
-                            </li>
-                    </div>
-                </nav>
-            </header>
-        <div id="content" class="site-content">
-            <div class="hero with-featured-image" style="padding-top: 312px;">
-                <article id="post-106" class="post-106 page type-page status-publish has-post-thumbnail hentry">
-                    <div class="entry-content">
-                        <p>欢迎合作！</p>
-                    </div>
-                </article>
-            </div>
-            <div id="quaternary" class="featured-page-area">
-                <div class="featured-page-wrapper clear">
-                    <div class="featured-page">
-                        <article id="post-117" class="post-117 page type-page status-publish has-post-thumbnail hentry">
-                            <a class="post-thumbnail" href="#">
-                                <img width="314" height="228" src="./static/keyboard-338507_1920.jpg" class="attachment-edin-thumbnail-landscape wp-post-image" alt="keyboard-338507_1920" scale="0">	</a>
-                                <header class="entry-header"><h1 class="entry-title"><a href="#" rel="bookmark">标题1</a></h1></header>
-	                            <div class="entry-summary">
-	                            	<p>公司简介1</p>
-	                            	<p><a class="more-link" href="#" rel="bookmark">了解更多<span class="screen-reader-text">标题1</span>		</a></p>
-	                            </div>
-	                    </article>
-                    </div><!-- .featured-page -->
-                    <div class="featured-page">
-                        <article id="post-120" class="post-120 page type-page status-publish has-post-thumbnail hentry">
-                            <a class="post-thumbnail" href="#">
-                                <img width="314" height="228" src="./static/keyboard-338505_1920.jpg" class="attachment-edin-thumbnail-landscape wp-post-image" alt="keyboard-338505_1920" scale="0">	</a>
-                                <header class="entry-header"><h1 class="entry-title"><a href="#" rel="bookmark">标题2</a></h1></header>
-                                <div class="entry-summary">
-                                <p>公司简介2</p>
-                                <p><a class="more-link" href="#" rel="bookmark">了解更多</a></p>
-                            </div>
-                        </article>
-                    </div>
-                <div class="featured-page">
-                    <article id="post-122" class="post-122 page type-page status-publish has-post-thumbnail hentry">
-	                    <a class="post-thumbnail" href="#">
-		                <img width="314" height="228" src="./static/headphones-338492_19201.jpg" class="attachment-edin-thumbnail-landscape wp-post-image" alt="headphones-338492_1920" scale="0">	</a>
-                        <header class="entry-header"><h1 class="entry-title"><a href="#" rel="bookmark">标题3</a></h1></header>
-                        <div class="entry-summary">
-		                    <p>公司简介3</p>
-		                    <p><a class="more-link" href="#" rel="bookmark">了解更多</a></p>
-                        </div>
-	                </article>
-                </div>
-		    </div>
+    <body>
+        <header class="menu-container header">
+            <div class="brand">Data Pinnacle</div>
+            <ul class="nav-container">
+                <li class="nav" id="nav-index">首页</li>
+                <li class="nav" id="nav-introduction">公司介绍</li>
+                <li class="nav" id="nav-recruitment">人才招聘</li>
+                <li class="nav" id="nav-contactus">联系我们</li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="banner"></div>
+            <ul class="intro-container">
+                <li class="intro">
+                    <img src="./static/keyboard-338507_1920.jpg" alt="" class="intro-img">
+                    <p class="intro-text">公司简介1</p>
+                </li>
+                <li class="intro">
+                    <img src="./static/keyboard-338505_1920.jpg" alt="" class="intro-img">
+                    <p class="intro-text">公司简介2</p>
+                </li>
+                <li class="intro">
+                    <img src="./static/headphones-338492_19201.jpg" alt="" class="intro-img">
+                    <p class="intro-text">公司简介3</p>
+                </li>
+            </ul>
         </div>
-    </div>
-    <footer id="colophon" class="site-footer" role="contentinfo">
-        <nav class="footer-navigation" role="navigation">
-            <div class="menu-footer-container">
-                <ul id="menu-footer" class="clear">
-                    <li id="menu-item-162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-162"><a href="index.html">首页</a></li>
-                    <li id="menu-item-161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-161"><a href="about.html">公司介绍</a></li>
-                    <li id="menu-item-166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-166"><a href="contact.html">联系我们</a></li>
-                </ul>
-            </div>			
-        </nav>
-        <div class="site-info">
-		    <p>上海数之巅科技有限责任公司</p>
-        </div>
-	</footer>
-</div>
-<script type="text/javascript" src="./static/lib1.js"></script>
-<script type="text/javascript" src="./static/lib2.js"></script>
-</body>
+        <footer class="menu-container footer">
+            <div class="brand">上海数之巅科技有限责任公司</div>
+            <ul class="nav-container">
+                <li class="nav" id="nav-index2">首页</li>
+                <li class="nav" id="nav-introduction2">公司介绍</li>
+                <li class="nav" id="nav-recruitment2">人才招聘</li>
+                <li class="nav" id="nav-contactus2">联系我们</li>
+            </ul>
+        </footer>
+    </body>
+    <script src="./static/index.js"></script>
 </html>
