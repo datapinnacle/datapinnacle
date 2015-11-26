@@ -1,11 +1,10 @@
 html,
 body {
-    background-color: white;
+    background-color: #061117;
     min-width: 480px;
     padding: 0;
     margin: 0;
 }
-
 ul,
 li {
     list-style: none;
@@ -43,7 +42,8 @@ li {
         height: 90px;
         font-size: 30px;
         line-height: 90px;
-        background-color: rgba(0, 0, 0, 0.25);
+        background-color: rgba(0, 0, 0, 0.45);
+        z-index: 3
     }
     .header .nav-container {
         margin-top: -90px;
@@ -54,7 +54,7 @@ li {
     .footer {
         height: 60px;
         line-height: 60px;
-        background-color: rgba(0, 0, 0, 0.26);
+        background-color: rgba(0, 0, 0, 0.45);
         font-size: 16px;
         overflow: hidden;   
     }
@@ -62,7 +62,7 @@ li {
         margin-top: -60px;
     }
     .footer .nav:hover {
-        color: rgba(0,0,0,0.26);
+        color: #ddd;
     }
     .brand {
         width: 240px;
@@ -78,15 +78,30 @@ li {
         margin: 0 10px;
         cursor: pointer;
     }
+    .background-image {
+        background: url(./about_background.jpg) no-repeat 0 0;
+        background-size: cover;
+        width: 100%;
+        position: fixed;
+        height: 100%;
+        z-index: 0;
+        filter: blur(10px);
+        -webkit-filter: blur(10px);
+        -moz-filter: blur(10px);
+        -ms-filter: blur(10px);
+        -o-filter: blur(10px);
+    }
     .nav:hover {
         border-bottom: 1px solid white;
     }
     .content {
         margin: 0 auto;
         width: 600px;
-        margin-top: 120px;
+        padding-top: 120px;
         font-size: 18px;
-        line-height: 24px;
-        color: rgba(0, 0, 0, 0.84);
+        line-height: 30px;
+        color: #ddd;
+        z-index: 2;
+        position: relative;
     }
 }
