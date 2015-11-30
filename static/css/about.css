@@ -79,7 +79,7 @@ li {
         cursor: pointer;
     }
     .background-image {
-        background: url(./about_background.jpg) no-repeat 0 0;
+        background: url(../img/about_background.jpg) no-repeat 0 0;
         background-size: cover;
         width: 100%;
         position: fixed;
@@ -116,7 +116,7 @@ li {
     }
     .email {
         position: fixed;
-        top: 200px;
+        top: 142px;
         color: midnightblue;
         background-color: #73d6e2;
         z-index: 4;
