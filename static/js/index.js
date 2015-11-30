@@ -7,13 +7,6 @@
             window.location.href = url;
         }
     }
-    // 事先分组拾取元素
-    function getElByGroup(str) {
-        var elList = [];
-        elList.push(document.querySelectorAll(str));
-        return elList;
-    }
-
     // 页面加载绑定之后需要做的事情
     window.onload = function() {
         var els = [
@@ -37,31 +30,4 @@
             }
         }
     }
-    // window.onload = function() {
-
-    //     document.querySelector('#nav-index').onclick =
-    //     /*document.querySelector('#nav-index2').onclick = */function() {
-    //         window.location.href = './index.html';
-    //     };
-    //     document.querySelector('#nav-introduction').onclick =
-    //     /* document.querySelector('#nav-introduction2').onclick = */function() {
-    //         window.location.href = './about.html';
-    //     };
-    //     document.querySelector('#nav-recruitment').onclick =
-    //     /* document.querySelector('#nav-recruitment2').onclick = */function() {
-    //         window.location.href = './recruitment.html';
-    //     };
-    //     document.querySelector('#nav-contactus').onclick =
-    //     /*document.querySelector('#nav-contactus2').onclick = */function() {
-    //         var body = "商务合作请写明您的联系方式以及简要的合作内容。投递简历请附电子版简历。";
-    //         window.location.href = 'mailto:ke.wu@datapinnacle.cn?subject=商务合作或投递简历&cc=shuai.wang@datapinnacle.cn&body=' + body;
-    //     };
-        
-    //     if (document.querySelector('#email')) {
-    //         document.querySelector('#email').onclik = function() {
-    //             var body ="投递简历请附电子版简历。";
-    //             window.location.href = 'mailto:ke.wu@datapinnacle.cn?subject=简历投递&cc=shuai.wang@datapinnacle.cn&body=' + body;
-    //         };
-    //     }
-    // }
 })();
