@@ -2,7 +2,6 @@
     "use strict";
     // 跳转使用
     function bindClick(node, url) {
-        console.log(node);
         node.onclick = function() {
             window.location.href = url;
         }
